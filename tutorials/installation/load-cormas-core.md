@@ -7,6 +7,15 @@ However, the Core packages of Cormas (without graphical user interface) can be l
 
 In this post, I provide the step-by-step instructions for loading the core packages of Cormas into Pharo 11 and using them to run multi-agent simulations in Pharo Playground.
 
+## Contents
+
+- [Step 1. Install Pharo Launcher](#step-1-install-pharo-launcher)
+- [Step 2. Create and Open a Pharo 11 Image](#step-2-create-and-open-a-pharo-11-image)
+- [Step 3. Install Cormas Core](#step-3-install-cormas-core)
+- [Step 4. Install a Model](#step-4-install-a-model)
+- [Step 5. Browse and Edit the Model, Run the Tests](#step-5-browse-and-edit-the-model-run-the-tests)
+- [Step 6. Run the Simulation](#step-6-run-the-simulation)
+
 ## Step 1. Install Pharo Launcher
 
 Pharo Launcher is an official application that can be used for creating and managing Pharo images. It can be downloaded from [https://pharo.org/download](https://pharo.org/download).
@@ -98,7 +107,7 @@ Metacello new
     load.
 ```
 
-## Step 5. Browse and Edit the Model
+## Step 5. Browse and Edit the Model, Run the Tests
 
 To explore the code of the model that we have just installed, you will need to open a System Browser.
 
