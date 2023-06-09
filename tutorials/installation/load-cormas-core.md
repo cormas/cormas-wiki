@@ -70,9 +70,18 @@ The baseline (installation configuration in the repository) is `Cormas` ([Baseli
 `onWarningLog` means that any installation warnings will be logged and not displayed to you.
 If you want to learn more about baselines and Metacello, check out the [Baselines](https://github.com/pharo-open-documentation/pharo-wiki/blob/master/General/Baselines.md) tutorial on [Pharo Wiki](https://github.com/pharo-open-documentation/pharo-wiki/blob/master/README.md).
 
+To execute all the code in your Playground, click on the _"Do It"_ button in the top-left corner.
+
 ![Playground DoIt Button](img/pharoPlayground-doIt.png)
 
+You can also execute only the selected lines.
+To do that, highlight them and, right-click on this selection and select _"Do It"_ in the context menu.
+Alternatively, you can use the shortcut `Ctrl+D` (or `Cmd+D` on Mac).
+
 ![Playground DoIt Context Menu](img/pharoPlayground-doItContext.png)
+
+The installation can take several minutes to complete.
+Once it is over, proceed to the next step.
 
 ## Step 4. Install a Model
 
