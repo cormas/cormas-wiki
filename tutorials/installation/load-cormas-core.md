@@ -102,6 +102,14 @@ Metacello new
 
 To explore the code of the model that we have just installed, you will need to open a System Browser.
 
+![Open SystemBrowser](img/pharo-openSystemBrowser.png)
+
+![SystemBrowser](img/pharoSystemBrowser.png)
+
+![Browse RED Model](img/pharoSystemBrowser-redModel.png)
+
+![Browse RED Model Tests](img/pharoSystemBrowser-redModelTests.png)
+
 ## Step 6. Run the Simulation
 
 ```st
