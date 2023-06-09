@@ -85,8 +85,12 @@ Once it is over, proceed to the next step.
 
 ## Step 4. Install a Model
 
+Cormas is now installed and ready to be used.
+Now we need to install the model that we will be running with Cormas.
+In this example, we will use the [RED Epidemiological Model](https://github.com/olekscode/REDEpidemiologicalModel).
+Use the script below to install it (see the previous section if you are lost).
+
 ```st
-"Load the SEIR model"
 Metacello new
     onConflictUseLoaded;
     baseline: 'REDModel';
@@ -95,6 +99,8 @@ Metacello new
 ```
 
 ## Step 5. Browse and Edit the Model
+
+To explore the code of the model that we have just installed, you will need to open a System Browser.
 
 ## Step 6. Run the Simulation
 
