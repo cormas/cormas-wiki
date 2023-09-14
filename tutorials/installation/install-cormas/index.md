@@ -92,4 +92,11 @@ Once it is over, the Pharo logo in your image will be replaced with the Cormas l
 ## Step 4. Try It Out
 
 Cormas is now installed and ready to be used.
+You can open the main window by clicking on the _"CORMAS"_ button in the top menu.
+We did not load any model yet, which is why the window is empty.
 
+![Cormas Main Window](img/cormas-mainWindow.png)
+
+Don't forget to save your image.
+
+![Save Image](img/pharo-cormas-save.png)
