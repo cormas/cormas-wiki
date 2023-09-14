@@ -85,7 +85,9 @@ Alternatively, you can use the shortcut `Ctrl+D` (or `Cmd+D` on Mac).
 ![Playground DoIt Context Menu](img/pharoPlayground-doItContext.png)
 
 The installation can take several minutes to complete.
-Once it is over, proceed to the next step.
+Once it is over, the Pharo logo in your image will be replaced with the Cormas logo.
+
+![Cormas](img/cormas.png)
 
 ## Step 4. Try It Out
 
