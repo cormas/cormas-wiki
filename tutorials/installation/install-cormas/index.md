@@ -69,8 +69,7 @@ Metacello new
     load.
 ```
 You do not really need to understand this script, but in case you are interested, it specifies that we want to load [Cormas](https://github.com/cormas/cormas) project from GitHub.
-The version is specified as [v0.5](https://github.com/cormas/cormas/releases/tag/v0.5).
-The baseline (installation configuration in the repository) is `Cormas` ([BaselineOfCormas](https://github.com/cormas/cormas/blob/v0.5/repository/BaselineOfCormas/BaselineOfCormas.class.st)).
+The baseline (installation configuration in the repository) is `Cormas` ([BaselineOfCormas](https://github.com/cormas/cormas/blob/master/repository/BaselineOfCormas/BaselineOfCormas.class.st)).
 `onConflictUseLoaded` means that in case some of the dependencies are already loaded, we will not load them again.
 `onWarningLog` means that any installation warnings will be logged and not displayed to you.
 If you want to learn more about baselines and Metacello, check out the [Baselines](https://github.com/pharo-open-documentation/pharo-wiki/blob/master/General/Baselines.md) tutorial on [Pharo Wiki](https://github.com/pharo-open-documentation/pharo-wiki/blob/master/README.md).
