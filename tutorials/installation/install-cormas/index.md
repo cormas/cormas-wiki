@@ -7,11 +7,9 @@ In this post, I provide the step-by-step instructions for loading the core packa
 ## Contents
 
 - [Step 1. Install Pharo Launcher](#step-1-install-pharo-launcher)
-- [Step 2. Create and Open a Pharo 11 Image](#step-2-create-and-open-a-pharo-11-image)
+- [Step 2. Create and Open a Pharo Image](#step-2-create-and-open-a-pharo-11-image)
 - [Step 3. Install Cormas Core](#step-3-install-cormas-core)
-- [Step 4. Install a Model](#step-4-install-a-model)
-- [Step 5. Browse and Edit the Model, Run the Tests](#step-5-browse-and-edit-the-model-run-the-tests)
-- [Step 6. Run the Simulation](#step-6-run-the-simulation)
+- [Step 4.Try It Out](#step-4-try-it-out)
 
 ## Step 1. Install Pharo Launcher
 
@@ -22,7 +20,7 @@ You should see the window similar to this:
 
 ![Pharo Launcher](img/pharoLauncher.png)
 
-## Step 2. Create and Open a Pharo 11 Image
+## Step 2. Create and Open a Pharo Image
 
 To create a new Pharo image, click on the _"New"_ button in the top-left corner of the Pharo Launcher window.
 
@@ -66,9 +64,9 @@ Copy the following installation script into your Playground.
 Metacello new
     onConflictUseLoaded;
     onWarningLog;
-    repository: 'github://cormas/cormas:v0.5';
+    repository: 'github://cormas/cormas';
     baseline: 'Cormas';
-    load: #Core.
+    load.
 ```
 You do not really need to understand this script, but in case you are interested, it specifies that we want to load [Cormas](https://github.com/cormas/cormas) project from GitHub.
 The version is specified as [v0.5](https://github.com/cormas/cormas/releases/tag/v0.5).
@@ -90,45 +88,7 @@ Alternatively, you can use the shortcut `Ctrl+D` (or `Cmd+D` on Mac).
 The installation can take several minutes to complete.
 Once it is over, proceed to the next step.
 
-## Step 4. Install a Model
+## Step 4. Try It Out
 
 Cormas is now installed and ready to be used.
-Now we need to install the model that we will be running with Cormas.
-In this example, we will use the [RED Epidemiological Model](https://github.com/olekscode/REDEpidemiologicalModel).
-Use the script below to install it (see the previous section if you are lost).
 
-```st
-Metacello new
-    onConflictUseLoaded;
-    baseline: 'REDModel';
-    repository: 'github://olekscode/REDEpidemiologicalModel';
-    load.
-```
-
-## Step 5. Browse and Edit the Model, Run the Tests
-
-To explore the code of the model that we have just installed, you will need to open a System Browser.
-
-![Open SystemBrowser](img/pharo-openSystemBrowser.png)
-
-![SystemBrowser](img/pharoSystemBrowser.png)
-
-![Browse RED Model](img/pharoSystemBrowser-redModel.png)
-
-![Browse RED Model Tests](img/pharoSystemBrowser-redModelTests.png)
-
-## Step 6. Run the Simulation
-
-```st
-"Initialize the model"
-model := REDModel new.
-model initSimulation.
-
-"Run simulation for 730 days"
-(1 to: 730)
-    do: [ :step | model runStep ]
-    displayingProgress: [ :step | 'Simulation step ', step asString ].
-    
-"Inspect the model"
-model inspect.
-```
