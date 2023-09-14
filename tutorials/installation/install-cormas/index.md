@@ -8,7 +8,7 @@ In this post, I provide the step-by-step instructions for loading the core packa
 
 - [Step 1. Install Pharo Launcher](#step-1-install-pharo-launcher)
 - [Step 2. Create and Open a Pharo Image](#step-2-create-and-open-a-pharo-image)
-- [Step 3. Install Cormas Core](#step-3-install-cormas-core)
+- [Step 3. Install Cormas](#step-3-install-cormas)
 - [Step 4.Try It Out](#step-4-try-it-out)
 
 ## Step 1. Install Pharo Launcher
@@ -47,7 +47,7 @@ Once you have familiarized yourself with the _"Welcome Window"_, feel free to cl
 
 ![Pharo Welcome Window](img/pharo-welcome.png) 
 
-## Step 3. Install Cormas Core
+## Step 3. Install Cormas
 
 We will install Cormas into this image by executing the installation script.
 To do that, you must open the Playground - a standard Pharo tool for executing code.
