@@ -2,7 +2,6 @@
 
 [Cormas](https://github.com/cormas/cormas) is an agent-based modelling platform implemented in [Pharo](https://pharo.org/).
 It is highly interactive and particularly well-suited  for participatory modelling.
-
 In this post, I provide the step-by-step instructions for loading the core packages of Cormas into Pharo 9.
 
 ## Contents
@@ -16,7 +15,7 @@ In this post, I provide the step-by-step instructions for loading the core packa
 
 ## Step 1. Install Pharo Launcher
 
-Pharo Launcher is an official application that can be used for creating and managing Pharo images. It can be downloaded from [https://pharo.org/download](https://pharo.org/download).
+Pharo Launcher is an application that can be used for creating and managing Pharo images. It can be downloaded from [https://pharo.org/download](https://pharo.org/download).
 Follow the instructions on the website to install Pharo Launcher on your computer.
 Once the installation is over, open Pharo Launcher.
 You should see the window similar to this:
@@ -30,11 +29,12 @@ To create a new Pharo image, click on the _"New"_ button in the top-left corner 
 ![New Image Button](img/pharoLauncher-new.png)
 
 Now you must select the version of Pharo and give your image a name.
-In our example, we are using Pharo 11, so select this version in the list (A).
-In text edit field (B), Pharo Launcher will suggest you a standard image name, for example, _"Pharo 11.0 - 64bit (stable)"_.
+The current version of Cormas requires Pharo 9, which is a deprecated version of Pharo.
+Therefore, you must first click on the _"Deprecated distributions"_ (A), then select _"Pharo 9.0 - 64bit"_ from the list (B).
+In text edit field (C), Pharo Launcher will suggest you a standard image name, for example, _"Pharo 9.0 - 64bit"_.
 We strongly recommend that you always replace it with a meaningful name that describes the purpose of your image.
 In this case, we use the name _"Cormas Example"_. 
-Once you have selected the version and given your image a name, click on the _"Create image"_ button in the bottom-right corner (C).
+Once you have selected the version and given your image a name, click on the _"Create image"_ button in the bottom-right corner (D).
 
 ![Image Version and Name](img/pharoLauncher-imageVersion.png)
 
