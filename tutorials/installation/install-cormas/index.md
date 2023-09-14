@@ -7,7 +7,7 @@ In this post, I provide the step-by-step instructions for loading the core packa
 ## Contents
 
 - [Step 1. Install Pharo Launcher](#step-1-install-pharo-launcher)
-- [Step 2. Create and Open a Pharo Image](#step-2-create-and-open-a-pharo-11-image)
+- [Step 2. Create and Open a Pharo Image](#step-2-create-and-open-a-pharo-image)
 - [Step 3. Install Cormas Core](#step-3-install-cormas-core)
 - [Step 4.Try It Out](#step-4-try-it-out)
 
@@ -39,7 +39,7 @@ Once you have selected the version and given your image a name, click on the _"C
 Now select your newly created image in the list and click on the _"Launch"_ button.
 You can also double-click on your image or right-click on it and select _"Launch"_ in the context menu.
 
-![Launch Image](img/pharoLauncher-launch.png) 
+![Launch Image](img/pharoLauncher-Launch.png) 
 
 Once your new image opens, it should look like the one in the picture below.
 The _"Welcome Window"_ allows you to make some basic configurations (e.g., choose the Dark Theme), it also contains many useful links that can help you learn Pharo.
